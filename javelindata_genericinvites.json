@@ -1,26 +1,36 @@
 [
-    {
-        "ActivityCrc": "Duel",
-        "ActivityType": 1,
-        "DurationSec": 10,
-        "Teams": 2,
-        "MinLevel": 10,
-        "MaxDistance": 10,
-        "InSanctuary": false,
-        "InGameMode": false,
-        "InWar": false,
-        "InArena": false
-    },
-    {
-        "ActivityCrc": "Trade",
-        "ActivityType": 2,
-        "DurationSec": 10,
-        "Teams": 0,
-        "MinLevel": 0,
-        "MaxDistance": 10,
-        "InSanctuary": true,
-        "InGameMode": false,
-        "InWar": false,
-        "InArena": false
-    }
+  {
+    "ActivityCrc": "Duel",
+    "ActivityType": 1,
+    "DurationSec": 10,
+    "Teams": 2,
+    "MinLevel": 10,
+    "MaxLevel": "",
+    "FactionType": "",
+    "MinDistance": "",
+    "MaxDistance": 10,
+    "AllowInSanctuary": false,
+    "AllowInFtue": false,
+    "AllowInWar": false,
+    "AllowInArena": false,
+    "DisallowInGameModes": "Dungeon,OutpostRush,Duel,",
+    "DisallowedWaterDepths": "Deep,"
+  },
+  {
+    "ActivityCrc": "Trade",
+    "ActivityType": 2,
+    "DurationSec": 10,
+    "Teams": 0,
+    "MinLevel": 0,
+    "MaxLevel": "",
+    "FactionType": "",
+    "MinDistance": "",
+    "MaxDistance": 10,
+    "AllowInSanctuary": true,
+    "AllowInFtue": false,
+    "AllowInWar": false,
+    "AllowInArena": false,
+    "DisallowInGameModes": "OutpostRush,Duel,",
+    "DisallowedWaterDepths": ""
+  }
 ]
